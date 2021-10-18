@@ -10,3 +10,11 @@ The first approach to introduce machine learning into HMC using supervised learn
 The second approach of using Bayesian Learning was inspired by the success of the NNgHMC method in solving the Hubbard model.BNN are a unique combination of neural network and stochastic models with the stochastic model forming the core of this integration. BNNs can then produce probabilistic guarantees on it’s predictions and also generate the distribution of the parameters that it has learnt from the observations.That means, in the parameter space, one can deduce the nature and distribution of the neural network’s learnt parameters. The idea is to use these two characteristics of the BNN to estimate the error and confidence of the neural network model that approximates the force in leap frog steps for HMC. 
 
 The third approach to use unsupervised/reinforcement learning to learn a MCMC kernel by training a modified Leapfrog integrator parametrized by neural nets was based on the paper [DanielLevy](https://arxiv.org/abs/1711.09268). 
+
+## Requirements
+- Python
+- Numpy
+- Matplotlib
+- PyTorch
+- Tensorflow
+- Keras
