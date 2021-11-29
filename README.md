@@ -1,7 +1,7 @@
 # MasterThesis
 Physics Master Thesis
 
-In this thesis, we use the Hubbard Model to study the physics of correlated fermions in bipartite hexagonal and the special non-bipartite kagome lattice.To solve the Hubbard model we require to use stochastic methods like HMC since it is not always  possible to exactly diagonlize the system, as the underlying Hilbert space of n coupled spin half particles (dimension 2^{n}) exponentially increases with the size of the system.
+In this thesis, we use the Hubbard Model to study the physics of correlated fermions in bipartite hexagonal and the special non-bipartite kagome lattice.To solve the Hubbard model we require to use stochastic methods like HMC since it is not always  possible to exactly diagonlize the system, as the underlying Hilbert space of n coupled spin half particles (dimension 4^{n}) exponentially increases with the size of the system.
 
 The motivation behind the work done on the thesis comes from the success of using machine learning methods that are capable of learning highly non-linear functions.The thesis can be divided into three projects each of which, tries out a different regime of machine learning methods: Supervised Learning,Bayesian Learning,Unsupervised/Reinforcement Learning.
 
